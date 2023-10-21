@@ -3,3 +3,7 @@ streamlit
 streamlit-elements==0.1.*
 streamlit_pandas_profiling
 streamlit-shap
+matplotlib
+scikit-learn
+pandas
+xgboost
