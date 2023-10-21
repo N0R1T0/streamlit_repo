@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title('?? Bored API app')
+st.title('🏀 Bored API app')
 
 st.sidebar.header('Input')
 selected_type = st.sidebar.selectbox('Select an activity type', ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"])
