@@ -32,7 +32,7 @@ if submitted:
         - Bring own cup: `{owncup_val}`
         ''')
 else:
-    st.write('?? Place your order!')
+    st.write('☕ Place your order!')
 
 
 #オブジェクト表記を使用した短い例
