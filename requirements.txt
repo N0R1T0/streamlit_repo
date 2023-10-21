@@ -1,3 +1,4 @@
 opencv-python-headless==4.6.0.66
 streamlit==1.12.2
 streamlit-elements==0.1.*
+streamlit_pandas_profiling
