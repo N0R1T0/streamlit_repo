@@ -7,4 +7,3 @@ matplotlib
 scikit-learn
 pandas
 xgboost
-st_profile_report==0.1.*
