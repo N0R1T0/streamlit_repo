@@ -1,5 +1,5 @@
 opencv-python-headless==4.6.0.66
-streamlit
+streamlit==1.27.2
 streamlit-elements==0.1.*
 streamlit_pandas_profiling
 streamlit-shap
@@ -7,4 +7,4 @@ matplotlib
 scikit-learn
 pandas
 xgboost
-st_profile_report
+st_profile_report==0.1.3
