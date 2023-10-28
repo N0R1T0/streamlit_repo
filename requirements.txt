@@ -9,3 +9,6 @@ pandas
 xgboost
 geopandas
 pandas_profiling
+streamlit-tags
+streamlit-aggrid
+streamlit-option-menu
