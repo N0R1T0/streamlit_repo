@@ -1,4 +1,5 @@
 # モジュールの読み込み
+from io import BytesIO
 import pandas as pd
 import streamlit as st
 import pygwalker as pyg
@@ -14,3 +15,11 @@ with st.sidebar:
 if df is not None:
     output = pyg.walk(df, env='Streamlit')
     st.write(output)
+
+df.to_excel(buf := BytesIO(), index=False)
+st.download_button(
+    "Download",
+    buf.getvalue(),
+    "sample.xlsx",
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+)
